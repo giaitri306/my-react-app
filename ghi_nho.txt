@@ -1,0 +1,78 @@
+https://www.youtube.com/watch?v=qaBI9WgKkb0&list=PLZusWOyEknKxPWcSQd_siHEVvjXW8v9UE
+
+https://www.youtube.com/watch?v=PWjfBREub44 học react mới nhất
+
+https://www.youtube.com/watch?v=tllZWCQZ9_0  học reat chuẩn dài 9 tiếng
+
+https://www.youtube.com/watch?v=PsU4QXre4Js  cơ bản về reat 
+
+  Local:            http://localhost:3000        
+  On Your Network:  http://192.168.10.123:3000   
+
+Chạy chương trình
+        create-react-app@5.0.1
+        npm audit fix --force
+        cd my-app
+        PS D:\driven\nodejs> cd my-app
+              npm start
+              npm run build
+              npm test
+              npm start
+  router 
+    npm i -D react-router-dom
+
+    npm install react-bootstrap bootstrap
+  Di chuyển file  di chỗ khác
+      Vào xoá file đó đi thư mục node_modules và file package-lock.json
+      Vào "cd+ tên mục cần lưu" ấn "npm i" là xong
+      Chạy web npm start
+  Cài git ban đầugit 
+    winget install --id Git.Git -e --source winget
+
+    or create a new repository on the command line
+echo "# my-react-app" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/giaitri306/my-react-app.git
+git push -u origin main
+
+phải set email dể chạy đc git
+    git config user.email ""
+    git config user.name ""
+
+
+
+
+để các máy tính ( thư mục code ) dùng chung một tài khoản bắt buộc phải có
+    git remote add origin https://github.com/giaitri306/my-react-app.git
+    git config user.email ""
+    git config user.name ""
+    git branch -M main
+    git checkout main
+
+Cách 1 - tải nguyên thư mục code lần đầu 
+    vào thư mục trong máy tính
+    tạo thư mục rồi ấn    cmd
+    git clone "https://github.com/giaitri306/my-react-app.git"
+    sau đó cd vào và xài
+    Muốn kéo code về từ lần thứ 2 dùng "git pull"
+
+Cách 2 - Tự tạo git init, config( cấu hình để pull (kéo) code về ), tải các file củathuwruw mục
+    cd vào một thư mục muốn tải về
+    git init
+    git remote add origin https://github.com/giaitri306/my-react-app.git
+    git config user.email "giaitri.zvni@gmail.com"
+    git config user.name "demo"
+    git branch -M main
+    ///dùng cho lần 2 - chỉ cần dùng lệnh pull
+    git pull ( có tể không thấy code, chạy thêm git checkout main )
+    // có thể xài git fetch ( google thêm nha )
+
+up load code mới
+  git add .
+  git commit -m "noi dug"
+  git branch -M main
+  git push -u origin main
+  =>>> sau do dùng ghp key để xác thực rooif code se dc up len
